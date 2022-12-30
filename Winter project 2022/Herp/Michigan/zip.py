@@ -13,6 +13,22 @@ zip_codes = {
    'Leslie' : [49251],
    'Onondaga' : [49264],
    'Stockbridge' : [49285]
+   },
+
+  'Eaton' : {
+    'Charlotte' : [48813],
+    'Dimondale' : [48821],
+    'Eaton Rapids' : [48827],
+    'Grand Ledge' : [48837],
+    'Mulliken' : [48861],
+    'Potterville' : [48876],
+    'Sunfield' : [48890],
+    'Lansing': [48908,48917],
+    'Bellevue' : [49021],
+    'Olivet' : [49076],
+    'Vertmonteville' : [49096]
+  
+  }
 
     }
                 
@@ -26,4 +42,3 @@ zip_codes = {
 
 
 
-}
