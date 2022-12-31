@@ -1,6 +1,12 @@
-zip_codes = {
-  'Ingham': {
-    
+## Creating a Nested Dictionary
+
+zip_codes = {  
+
+  # Creating a Dictionary for Ingham county
+
+  'Ingham': {    
+
+    ## List format// list keys=city, list values=zipcodes
    'Lansing' : [48901,48909,48910,48911,48912,48913,48915,48916,48918,48919,48922,48924,48929,48930,48933,48937,48951,48956,48980],
    'East Lansing' : [48823,48824,48825,48826],
    'Okemos' : [48805,48864],
@@ -13,9 +19,11 @@ zip_codes = {
    'Leslie' : [49251],
    'Onondaga' : [49264],
    'Stockbridge' : [49285]
-   },
+   }, 
 
-  'Eaton' : {
+  #Creating a dictionary for Eaton county
+
+  'Eaton' : {     
     'Charlotte' : [48813],
     'Dimondale' : [48821],
     'Eaton Rapids' : [48827],
@@ -26,7 +34,7 @@ zip_codes = {
     'Lansing': [48908,48917],
     'Bellevue' : [49021],
     'Olivet' : [49076],
-    'Vertmonteville' : [49096]
+    'Vertmontville' : [49096]
   
   }
 
