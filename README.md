@@ -1,3 +1,3 @@
 # Winter-Project-2022
-I really don't know the direction of this project yet. Right now I'm on winter break, so I'll use my limited Python knowledge and learn some more along with it to create something simple. 
+So far with this project I wanted to do something with Michigan zipcodes. I used the zipcodes from Eaton and Ingham county and the cities that resonate with them. I am not sure what I will do with it but I will update this soon! 
 
