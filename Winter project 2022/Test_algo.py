@@ -1,4 +1,6 @@
-from Herp.derp.Sort_algo import linear_search  ###Testing Alogorithms imported from other files 
+###Testing Alogorithms imported from other files
+
+from Herp.derp.Sort_algo import linear_search   
 a=[1,98,76,5,4,6]
 n=4
 r=linear_search(a,n)

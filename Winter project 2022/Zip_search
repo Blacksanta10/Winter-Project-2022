@@ -1,0 +1,13 @@
+# importing zip code dictionary 
+
+from Herp.Michigan.zip import zip_codes
+
+from Herp.derp.Sort_algo import rec_keys
+
+#Prints all keys from both nested loops
+#print(rec_keys(zip_codes))
+
+from Herp.derp.Sort_algo import rec_keys_2
+
+#Prints keys 
+print(rec_keys_2(zip_codes))

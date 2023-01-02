@@ -28,3 +28,23 @@ def max_list(a):
         if (a[i]>max):
             max=a[i]
     return(max)
+
+#returns keys in nested dictionary
+def rec_keys(dictio):
+    keys = []
+    for (key,value) in dictio.items():
+        if isinstance(value,dict):
+            keys.extend(rec_keys(value))
+        else:
+            keys.append(key) 
+    return keys   
+
+def rec_keys_2(dictio):
+    keys = str(input)
+    for (key,value) in dictio.items():
+        if isinstance(value,dict):
+            keys.extend(rec_keys_2(value))
+        else:
+            keys.append(key) 
+    return keys 
+        
